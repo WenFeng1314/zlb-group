@@ -1,0 +1,35 @@
+server:
+  port: 8003
+
+spring:
+  profiles:
+    active: local
+
+---
+spring:
+  application:
+    name: authority-server
+  # 从配置中心拉取配置, 其他配置文件都在git仓库上
+  cloud:
+    config:
+      discovery:
+        enabled: true # 通过服务发现的方式去找配置中心
+        service-id: config-server
+      profile: local
+
+#注册到注册中心
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 2 #单位s 向服务端发送一次心跳，证明自己依然”存活“
+    lease-expiration-duration-in-seconds: 5 #单位s 告诉服务端，如果我2s之内没有给你发心跳，就代表我“死”了，将我踢出掉。
+    hostname: 127.0.0.1
+    instance-id: ${spring.application.name}:${eureka.instance.hostname}:${server.port}
+    prefer-ip-address: true
+    # 实际注册地址，每个服务各不相同，要看该服务在哪个服务器上
+    ip-address: ${eureka.instance.hostname}
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://zhaolaobao:wd2fWNSh2ijLcsKcgXgA98zIbOJEB8m7WgeU8mRj5hrsl2EfIv@localhost:8001/eureka/
+

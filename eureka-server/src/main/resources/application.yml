@@ -1,0 +1,17 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: eureka-server
+
+
+# 标识该服务为注册中心
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    allow-redirects: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone:  http://zhaolaobao:wd2fWNSh2ijLcsKcgXgA98zIbOJEB8m7WgeU8mRj5hrsl2EfIv@127.0.0.1:8001/eureka/
+
