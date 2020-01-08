@@ -19,7 +19,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/authority-server" />
-            <option value="$PROJECT_DIR$/authority-server/common" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />
@@ -53,17 +52,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/eureka-server" />
-          </set>
-        </option>
-        <option name="useQualifiedModuleNames" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/gateway-server" />
-        <option name="gradleHome" value="C:/Program Files/gradle/gradle-5.5.1" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/gateway-server" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />
