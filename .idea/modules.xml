@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/authority-server/authority-server.iml" filepath="$PROJECT_DIR$/authority-server/authority-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/authority-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/authority-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/authority-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/authority-server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/gateway-server/gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway-server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zlb-group.iml" filepath="$PROJECT_DIR$/.idea/modules/zlb-group.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zlb-group.main.iml" filepath="$PROJECT_DIR$/.idea/modules/zlb-group.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zlb-group.test.iml" filepath="$PROJECT_DIR$/.idea/modules/zlb-group.test.iml" />
+    </modules>
+  </component>
+</project>
