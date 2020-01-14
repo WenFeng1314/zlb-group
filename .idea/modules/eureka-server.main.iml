@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="eureka-server:main" external.linked.project.path="$MODULE_DIR$/../../eureka-server" external.root.project.path="$MODULE_DIR$/../../eureka-server" external.system.id="GRADLE" external.system.module.group="com.zlb" external.system.module.type="sourceSet" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module version="4">
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="com.zlb" externalSystemModuleType="sourceSet" externalSystemModuleVersion="0.0.1-SNAPSHOT" linkedProjectId="eureka-server:main" linkedProjectPath="$MODULE_DIR$/../../eureka-server" rootProjectPath="$MODULE_DIR$/../../eureka-server" />
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration />
@@ -11,7 +12,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../../eureka-server/build/classes/java/main" />
+    <output url="file://$MODULE_DIR$/../../eureka-server/out/production/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../eureka-server/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../eureka-server/src/main/java" isTestSource="false" />
@@ -49,8 +50,8 @@
     <orderEntry type="library" name="Gradle: com.netflix.eureka:eureka-core:1.9.13" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.archaius:archaius-core:0.7.6" level="project" />
     <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.jersey.contribs:jersey-apache-client4:1.19.1" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.jersey.contribs:jersey-apache-client4:1.19.1" level="project" />
     <orderEntry type="library" name="Gradle: com.thoughtworks.xstream:xstream:1.4.11.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-ribbon:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-archaius:2.1.4.RELEASE" level="project" />
@@ -62,8 +63,8 @@
     <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon-httpclient:2.3.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.netflix.hystrix:hystrix-core:1.5.18" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon-loadbalancer:2.3.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.inject:guice:4.1.0" level="project" />
     <orderEntry type="library" name="Gradle: io.reactivex:rxjava:1.3.8" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.inject:guice:4.1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.netflix.netflix-commons:netflix-commons-util:0.3.0" level="project" />
     <orderEntry type="library" name="Gradle: javax.xml.bind:jaxb-api:2.3.1" level="project" />
     <orderEntry type="library" name="Gradle: org.glassfish.jaxb:txw2:2.3.1" level="project" />
@@ -74,8 +75,8 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-actuator-autoconfigure:2.1.11.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.reactivex:rxnetty-contexts:0.4.9" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.reactivex:rxnetty-servo:0.4.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.10" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.reactivex:rxnetty:0.4.9" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.10" level="project" />
@@ -99,8 +100,8 @@
     <orderEntry type="library" name="Gradle: javax.annotation:javax.annotation-api:1.3.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.amazonaws:aws-java-sdk-ec2:1.11.415" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context-support:5.1.12.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-config:5.1.7.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.amazonaws:aws-java-sdk-autoscaling:1.11.415" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-config:5.1.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-core:5.1.7.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.amazonaws:aws-java-sdk-sts:1.11.415" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.amazonaws:aws-java-sdk-route53:1.11.415" level="project" />
@@ -111,8 +112,8 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.1.12.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.1.12.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-crypto:5.1.7.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.60" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.amazonaws:jmespath-java:1.11.415" level="project" />
+    <orderEntry type="library" name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.60" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate.validator:hibernate-validator:6.0.18.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.micrometer:micrometer-core:1.1.9" level="project" />
     <orderEntry type="library" name="Gradle: org.freemarker:freemarker:2.3.29" level="project" />
@@ -135,15 +136,15 @@
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:9.0.29" level="project" />
     <orderEntry type="library" name="Gradle: javax.validation:validation-api:2.0.1.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.3.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml:classmate:1.4.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.yaml:snakeyaml:1.23" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml:classmate:1.4.0" level="project" />
     <orderEntry type="library" name="Gradle: org.hdrhistogram:HdrHistogram:2.1.9" level="project" />
     <orderEntry type="library" name="Gradle: org.latencyutils:LatencyUtils:2.0.3" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.9.5" level="project" />
     <orderEntry type="library" name="Gradle: javax.ws.rs:jsr311-api:1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.codehaus.jettison:jettison:1.3.7" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.codehaus.jettison:jettison:1.3.7" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.29" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.httpcomponents:httpclient:4.5.10" level="project" />
