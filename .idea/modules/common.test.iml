@@ -7,7 +7,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../common/out/test/classes" />
+    <output-test url="file://$MODULE_DIR$/../../common/build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../common/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../common/src/test/java" isTestSource="true" />
@@ -54,4 +54,5 @@
     <orderEntry type="library" name="Gradle: net.minidev:accessors-smart:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
   </component>
+  <component name="TestModuleProperties" production-module="common.main" />
 </module>
