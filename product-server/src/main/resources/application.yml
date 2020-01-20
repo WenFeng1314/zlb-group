@@ -1,0 +1,31 @@
+server:
+  port: 8005
+spring:
+  application:
+    name: product-server #指定配置文件的应用名称
+  profiles:
+    active: native #表示从本地获取配置文件
+    #自定义配置文件路径
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:config/local/
+
+#  cloud:
+#    config:
+#      server:
+#        bootstrap=true:
+eureka:
+  instance:
+    hostname: 127.0.0.1
+    instance-id: ${spring.application.name}:${eureka.instance.hostname}:${server.port}
+    prefer-ip-address: true
+    # 更改eureka更新频率, 关闭eureka的自我保护机制.
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 15
+  client:
+    serviceUrl:
+      defaultZone: http://zhaolaobao:wd2fWNSh2ijLcsKcgXgA98zIbOJEB8m7WgeU8mRj5hrsl2EfIv@localhost:8001/eureka/
+    register-with-eureka: true
+    fetch-registry: true
