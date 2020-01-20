@@ -17,3 +17,23 @@ eureka:
       defaultZone: http://zhaolaobao:wd2fWNSh2ijLcsKcgXgA98zIbOJEB8m7WgeU8mRj5hrsl2EfIv@localhost:8001/eureka/
     register-with-eureka: true
     fetch-registry: true
+#  redis:
+#    host: server-b-3
+#    port: 6379
+#    password: FqJe3AiDkP$q
+#    database: 11
+#    timeout: 10000 # 连接超时时间（毫秒）
+#    pool:
+#      maxIdle: 20   #最大空闲连接数
+#      minIdle: 8   #最小空闲连接数
+#      maxActive: 300   # 连接池最大连接数（使用负值表示没有限制）
+#      maxWait: 10000   # 连接池最大阻塞等待时间（使用负值表示没有限制）
+zuul:
+  # 公共前缀
+  # prefix: /api
+  # 路由转发规则
+  routes:
+    authority:
+      path: /**
+      sensitiveHeaders:
+      service-id: authority-server

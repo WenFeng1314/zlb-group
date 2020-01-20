@@ -3,17 +3,15 @@ package com.zlb.gateway.config;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
-import org.bouncycastle.util.Strings;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.stereotype.Component;
-import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Objects;
 
-@Component
+@Configuration
 public class TokenFilter extends ZuulFilter {
     @Autowired
     private StringRedisTemplate redisTemplate;
