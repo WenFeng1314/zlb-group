@@ -2,7 +2,7 @@ server:
   port: 8003
 spring:
   application:
-    name: authority-server #指定配置文件的应用名称
+      name: authority-server #指定配置文件的应用名称
 
 eureka:
   instance:
