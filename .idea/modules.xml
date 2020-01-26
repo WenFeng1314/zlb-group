@@ -5,7 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/authority-server/authority-server.iml" filepath="$PROJECT_DIR$/authority-server/authority-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/authority-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/authority-server.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/authority-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/authority-server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.zlb.authority-server.iml" filepath="$PROJECT_DIR$/.idea/modules/com.zlb.authority-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.zlb.common.iml" filepath="$PROJECT_DIR$/.idea/modules/com.zlb.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.zlb.config-server.iml" filepath="$PROJECT_DIR$/.idea/modules/com.zlb.config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.zlb.eureka-server.iml" filepath="$PROJECT_DIR$/.idea/modules/com.zlb.eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.zlb.gateway-server.iml" filepath="$PROJECT_DIR$/.idea/modules/com.zlb.gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.zlb.product-server.iml" filepath="$PROJECT_DIR$/.idea/modules/com.zlb.product-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common.test.iml" />

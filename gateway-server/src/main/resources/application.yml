@@ -37,3 +37,7 @@ zuul:
       path: /**
       sensitiveHeaders:
       service-id: authority-server
+    product:
+      path: /**
+      sensitiveHeaders:
+      service-id: product-server

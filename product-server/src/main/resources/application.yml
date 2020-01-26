@@ -3,14 +3,12 @@ server:
 spring:
   application:
     name: product-server #指定配置文件的应用名称
-  profiles:
-    active: native #表示从本地获取配置文件
-    #自定义配置文件路径
-  cloud:
-    config:
-      server:
-        native:
-          search-locations: classpath:config/local/
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.111.25.67:26535/qs_3.0_product?characterEncoding=utf8
+    username: root
+    password: nYZGy6mz
 
 #  cloud:
 #    config:
@@ -29,3 +27,7 @@ eureka:
       defaultZone: http://zhaolaobao:wd2fWNSh2ijLcsKcgXgA98zIbOJEB8m7WgeU8mRj5hrsl2EfIv@localhost:8001/eureka/
     register-with-eureka: true
     fetch-registry: true
+
+mybatis:
+  mapper-locations:
+    - classpath:/mapper/*Mapper.xml
