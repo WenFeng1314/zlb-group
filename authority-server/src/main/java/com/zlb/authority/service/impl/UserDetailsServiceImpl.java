@@ -13,16 +13,22 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Objects;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        List<UserDetails> user=new ArrayList<>();
-        HashSet<GrantedAuthority> userRoles=new HashSet<>();
-        SimpleGrantedAuthority simpleGrantedAuthority = new SimpleGrantedAuthority("admin-role");
-        userRoles.add(simpleGrantedAuthority);
-        User wwf = new User("WWF", "123456", userRoles);
-        return wwf;
+       if (Objects.nonNull(username)&&Objects.equals(username,"WWF")) {
+           List<UserDetails> user = new ArrayList<>();
+           HashSet<GrantedAuthority> userRoles = new HashSet<>();
+           SimpleGrantedAuthority simpleGrantedAuthority = new SimpleGrantedAuthority("admin-role");
+           userRoles.add(simpleGrantedAuthority);
+           User wwf = new User("WWF", "123456", userRoles);
+
+           return wwf;
+       }else {
+           return null;
+       }
     }
 }

@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/authority-server/authority-server.iml" filepath="$PROJECT_DIR$/authority-server/authority-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-155190491/authority-server.api.iml" filepath="$PROJECT_DIR$/.idea/modules/-155190491/authority-server.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-155190491/authority-server.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-155190491/authority-server.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-155190491/authority-server.api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-155190491/authority-server.api.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/authority-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/authority-server.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/authority-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/authority-server.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.zlb.authority-server.iml" filepath="$PROJECT_DIR$/.idea/modules/com.zlb.authority-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.zlb.common.iml" filepath="$PROJECT_DIR$/.idea/modules/com.zlb.common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.zlb.config-server.iml" filepath="$PROJECT_DIR$/.idea/modules/com.zlb.config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.zlb.eureka-server.iml" filepath="$PROJECT_DIR$/.idea/modules/com.zlb.eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.zlb.gateway-server.iml" filepath="$PROJECT_DIR$/.idea/modules/com.zlb.gateway-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.zlb.product-server.iml" filepath="$PROJECT_DIR$/.idea/modules/com.zlb.product-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
@@ -21,12 +23,24 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/gateway-server/gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-155190491/gateway-server.api.iml" filepath="$PROJECT_DIR$/.idea/modules/-155190491/gateway-server.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-155190491/gateway-server.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-155190491/gateway-server.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-155190491/gateway-server.api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-155190491/gateway-server.api.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway-server.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway-server.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-server/product-server.iml" filepath="$PROJECT_DIR$/product-server/product-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-server.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/product-server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usercenter-server/usercenter-server.iml" filepath="$PROJECT_DIR$/usercenter-server/usercenter-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-155190491/usercenter-server.api.iml" filepath="$PROJECT_DIR$/.idea/modules/-155190491/usercenter-server.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-155190491/usercenter-server.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-155190491/usercenter-server.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-155190491/usercenter-server.api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-155190491/usercenter-server.api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/usercenter-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/usercenter-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/usercenter-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/usercenter-server.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/zlb-group.iml" filepath="$PROJECT_DIR$/.idea/modules/zlb-group.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zlb-group.authority-server.iml" filepath="$PROJECT_DIR$/.idea/modules/zlb-group.authority-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zlb-group.config-server.iml" filepath="$PROJECT_DIR$/.idea/modules/zlb-group.config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zlb-group.eureka-server.iml" filepath="$PROJECT_DIR$/.idea/modules/zlb-group.eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/zlb-group.main.iml" filepath="$PROJECT_DIR$/.idea/modules/zlb-group.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/zlb-group.test.iml" filepath="$PROJECT_DIR$/.idea/modules/zlb-group.test.iml" />
     </modules>

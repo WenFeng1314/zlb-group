@@ -17,6 +17,7 @@ eureka:
       defaultZone: http://zhaolaobao:wd2fWNSh2ijLcsKcgXgA98zIbOJEB8m7WgeU8mRj5hrsl2EfIv@localhost:8001/eureka/
     register-with-eureka: true
     fetch-registry: true
+
 #  redis:
 #    host: server-b-3
 #    port: 6379
@@ -41,3 +42,7 @@ zuul:
       path: /**
       sensitiveHeaders:
       service-id: product-server
+    usercenter:
+      path: /**
+      sensitiveHeaders:
+      service-id: usercenter-server

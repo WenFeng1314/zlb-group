@@ -5,6 +5,10 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api.main" target="1.8" />
+      <module name="api.test" target="1.8" />
+      <module name="authority-server.api.main" target="1.8" />
+      <module name="authority-server.api.test" target="1.8" />
       <module name="authority-server.main" target="1.8" />
       <module name="authority-server.test" target="1.8" />
       <module name="common.main" target="1.8" />
@@ -13,10 +17,16 @@
       <module name="config-server.test" target="1.8" />
       <module name="eureka-server.main" target="1.8" />
       <module name="eureka-server.test" target="1.8" />
+      <module name="gateway-server.api.main" target="1.8" />
+      <module name="gateway-server.api.test" target="1.8" />
       <module name="gateway-server.main" target="1.8" />
       <module name="gateway-server.test" target="1.8" />
       <module name="product-server.main" target="1.8" />
       <module name="product-server.test" target="1.8" />
+      <module name="usercenter-server.api.main" target="1.8" />
+      <module name="usercenter-server.api.test" target="1.8" />
+      <module name="usercenter-server.main" target="1.8" />
+      <module name="usercenter-server.test" target="1.8" />
       <module name="zlb-group.main" target="1.8" />
       <module name="zlb-group.test" target="1.8" />
     </bytecodeTargetLevel>

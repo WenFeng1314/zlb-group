@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module version="4">
-  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="com.zlb" externalSystemModuleType="sourceSet" externalSystemModuleVersion="0.0.1-SNAPSHOT" linkedProjectId="config-server:test" linkedProjectPath="$MODULE_DIR$/../../config-server" rootProjectPath="$MODULE_DIR$/../../config-server" />
+<module external.linked.project.id="config-server:test" external.linked.project.path="$MODULE_DIR$/../../config-server" external.root.project.path="$MODULE_DIR$/../../config-server" external.system.id="GRADLE" external.system.module.group="com.zlb" external.system.module.type="sourceSet" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration />
@@ -13,7 +12,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../config-server/build/classes/java/test" />
+    <output-test url="file://$MODULE_DIR$/../../config-server/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../config-server/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../config-server/src/test/java" isTestSource="true" />
@@ -70,8 +69,8 @@
     <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-core:2.6.3" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.10" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.10" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.netflix.netflix-commons:netflix-eventbus:0.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.10" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.10.1" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.10" level="project" />
     <orderEntry type="library" name="Gradle: io.micrometer:micrometer-core:1.1.9" level="project" />
@@ -93,20 +92,20 @@
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-ribbon:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-archaius:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.archaius:archaius-core:0.7.6" level="project" />
-    <orderEntry type="library" name="Gradle: commons-configuration:commons-configuration:1.8" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.reactivex:rxnetty-servo:0.4.9" level="project" />
+    <orderEntry type="library" name="Gradle: commons-configuration:commons-configuration:1.8" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon:2.3.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.netflix.servo:servo-core:0.12.21" level="project" />
-    <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon-core:2.3.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.netflix.netflix-commons:netflix-infix:0.3.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.reactivex:rxnetty-contexts:0.4.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon-core:2.3.0" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon-httpclient:2.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.reactivex:rxnetty-contexts:0.4.9" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon-loadbalancer:2.3.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.reactivex:rxnetty:0.4.9" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.netflix.netflix-commons:netflix-commons-util:0.3.0" level="project" />
     <orderEntry type="library" name="Gradle: io.reactivex:rxjava:1.3.8" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.netflix.netflix-commons:netflix-statistics:0.1.1" level="project" />
     <orderEntry type="library" name="Gradle: xmlpull:xmlpull:1.1.3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.netflix.netflix-commons:netflix-statistics:0.1.1" level="project" />
     <orderEntry type="library" name="Gradle: xpp3:xpp3_min:1.1.4c" level="project" />
     <orderEntry type="library" name="Gradle: javax.annotation:javax.annotation-api:1.3.2" level="project" />
     <orderEntry type="library" name="Gradle: net.minidev:json-smart:2.3" level="project" />
@@ -116,16 +115,16 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.jersey.contribs:jersey-apache-client4:1.19.1" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.1.12.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.codehaus.jettison:jettison:1.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.jersey:jersey-client:1.19.1" level="project" />
     <orderEntry type="library" name="Gradle: org.hdrhistogram:HdrHistogram:2.1.9" level="project" />
     <orderEntry type="library" name="Gradle: org.latencyutils:LatencyUtils:2.0.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.jersey:jersey-core:1.19.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.29" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.ws.rs:jsr311-api:1.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:9.0.29" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.inject:guice:4.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:9.0.29" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:9.0.29" level="project" />
     <orderEntry type="library" name="Gradle: javax.validation:validation-api:2.0.1.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.woodstox:woodstox-core:5.0.3" level="project" />

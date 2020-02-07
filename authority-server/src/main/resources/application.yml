@@ -4,6 +4,11 @@ spring:
   application:
       name: authority-server #指定配置文件的应用名称
 
+
+  main:
+    allow-bean-definition-overriding: true
+
+
 eureka:
   instance:
     hostname: 127.0.0.1
@@ -17,3 +22,8 @@ eureka:
       defaultZone: http://zhaolaobao:wd2fWNSh2ijLcsKcgXgA98zIbOJEB8m7WgeU8mRj5hrsl2EfIv@localhost:8001/eureka/
     register-with-eureka: true
     fetch-registry: true
+  redis:
+    host: 192.168.254.131:6379
+zlb:
+  authorization: Basic d2ViOndlYi1zZWNyZXQ=
+  grant-type: password
